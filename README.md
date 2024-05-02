@@ -15,7 +15,7 @@ GraphQL server and client Set up
 * graphql-tag
 * [Dummyjson](dummyjson.com)
 
-### Installig
+### Installing
 ```
 nvm use 16.10.0
 npm i -g pnpm

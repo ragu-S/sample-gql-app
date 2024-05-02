@@ -1,5 +1,5 @@
 
-// https://sample-walmart.free.beeceptor.com/
+// https://dummyjson.com/users
 const resolvers = {
   Query: {
     users: async () => {},
