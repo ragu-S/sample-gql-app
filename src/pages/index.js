@@ -23,7 +23,6 @@ export default function Home() {
   })
 
   useEffect(() => {
-    debugger;
     if (data) {
       setUsers(data.users)
       usersRef.current = data.users

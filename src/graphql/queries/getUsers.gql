@@ -6,5 +6,8 @@ query getUsers {
 		email
 		username
 		image
+		data {
+			userHash
+		}
 	}
 }

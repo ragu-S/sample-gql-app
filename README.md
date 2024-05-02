@@ -17,7 +17,11 @@ GraphQL server and client Set up
 
 ### Installig
 ```
-pnpm run install
+nvm use 16.10.0
+npm i -g pnpm
+pnpm i
+
+pnpm build && pnpm start
 ```
 
 ### Env

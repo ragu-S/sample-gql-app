@@ -6,6 +6,10 @@ const typeDefs = gql`
     searchUser(value:String):[User]
   }
 
+  type UserData {
+    userHash: String
+  }
+
   type User {
     id: ID
     firstName: String
@@ -13,6 +17,7 @@ const typeDefs = gql`
     email: String
     username: String
     image: String
+    data: UserData!
   }
 `
 export default typeDefs
