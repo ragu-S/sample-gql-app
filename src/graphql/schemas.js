@@ -17,7 +17,7 @@ const typeDefs = gql`
     email: String
     username: String
     image: String
-    data: UserData!
+    data: UserData
   }
 `
 export default typeDefs
